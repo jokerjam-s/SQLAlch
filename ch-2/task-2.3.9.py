@@ -16,4 +16,4 @@ class InventoryItem(Base):
     unit_cost: Mapped[Decimal] = mapped_column(Numeric(10, 2))
     stock: Mapped[int] = mapped_column(Integer)
     available: Mapped[bool] = mapped_column()
-    
+
